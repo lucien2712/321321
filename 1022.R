@@ -1,0 +1,11 @@
+install.packages("quantmod")
+library(quantmod)
+getSymbols("AAPL",scr="yahoo")
+chartSeries(AAPL, theme="white")
+barChart(AAPL, theme="white")
+candleChart(AAPL, theme="white")
+lineChart(AAPL, theme="white")
+palette(rainbow(13))
+palette()
+
+plot(AAPL,main="aaxas",xaxt="n",col=1:13,xlab="asdasdasd",ylab)
